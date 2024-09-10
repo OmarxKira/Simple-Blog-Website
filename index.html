@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Advanced Blog</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/index.css" />
+  </head>
+  <body>
+    
+    <!-- Header Section with Navigation -->
+    <header class="bg-primary text-light py-4 text-center">
+      <h1>My Advanced Blog</h1>
+      <nav class="navbar navbar-expand-sm navbar-dark ">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item px-3">
+            <a class="nav-link active" href="#">Home</a>
+          </li>
+          <li class="nav-item px-3">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item px-3">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+          <li class="nav-item px-3">
+            <a class="nav-link" href="#">Portfolio</a>
+          </li>
+        </ul>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Main Content Section -->
+    <main class="container mt-5">
+      <div class="row">
+        <section class="col-md-8 ">
+          <!-- Articles -->
+          <article class="post card mb-3 p-2 shadow ">
+            <div class="card-body">
+              <h2 class="card-title">First Advanced Article Title</h2>
+              <p class="card-text">This is some sample text for the first article.</p>
+              <button class="btn btn-primary">Read More</button>
+            </div>
+          </article>
+          <article class="post card mb-3 p-2  shadow ">
+            <div class="card-body">
+              <h2 class="card-title">First Advanced Article Title</h2>
+              <p class="card-text">This is some sample text for the first article.</p>
+              <button class="btn btn-primary">Read More</button>
+            </div>
+          </article>
+          <article class="post card mb-3 p-2 shadow">
+            <div class="card-body">
+              <h2 class="card-title">First Advanced Article Title</h2>
+              <p class="card-text">This is some sample text for the first article.</p>
+              <button class="btn btn-primary">Read More</button>
+            </div>
+          </article>
+        </section>
+
+        <!-- Sidebar with About and Recent Posts -->
+        <aside class="col-md-4">
+          <div class="sidebar p-2 mb-3 shadow-sm bg-white rounded">
+            <h4 class="mb-3">About the Blog</h4>
+            <p class="lead">This blog is more advanced, requiring enhancements and restructuring.</p>
+          </div>
+          <div class="sidebar p-2 mb-3 shadow-sm bg-white rounded">
+            <h4 class="mb-3">Recent Posts</h4>
+            <ul>
+              <li class="mb-2"><a href="#">How to Improve Your Blog</a></li>
+              <li class="mb-2"><a href="#">Understanding CSS Grid</a></li>
+              <li class="mb-2"><a href="#">10 JavaScript Tips and Tricks</a></li>
+            </ul>
+          </div>
+        </aside>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-light py-4 text-center">
+      <p>All Rights Reserved © 2024 | Designed by [Omar Alsayed]</p>
+      <form class="container">
+        <h5>Contact Us</h5>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email</label>
+          <input type="email" class="form-control" id="email" placeholder="name@example.com" />
+        </div>
+        <div class="mb-3">
+          <label for="message" class="form-label">Message</label>
+          <textarea class="form-control" id="message" rows="3"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Send</button>
+      </form>
+    </footer>
+
+    
+
+    <button id="back-to-top" class="btn btn-primary position-absolute" onclick="scrollToTop()">&uarr;</button>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>
